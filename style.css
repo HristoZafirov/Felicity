@@ -1,0 +1,688 @@
+body {
+	background-color: rgb(237,234,202);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#bg {
+	background: url('bg/interior-BG.jpg') 50% 50%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 54vh;
+}
+.table {
+	background-color: #FFFFE0;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #522900;
+	box-shadow: 0 0 4px #666;
+	font-size: 30px;
+	font-family: monotype corsiva;
+	text-align: center;
+	margin-top: 35px;
+}
+.text-zaglavie {
+	font-family: monotype corsiva;
+	font-size: 7vh;
+	font-weight: bold;
+	color: #522900;
+	text-align: center;
+	text-shadow: 0 0 5px #522900;
+	transition: transform 1s ease-in-out;
+}
+.text-zaglavie:hover {
+	transform: scale(1.2);
+}
+
+
+ul#butoni {
+	padding: 0;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+ul#butoni li {
+	display: inline-block;
+}
+ul#butoni li a {
+	text-decoration: none;
+	font-size: 3.6vh;
+	font-weight: bold;
+	font-family: monotype corsiva;
+	color: saddlebrown;
+	padding: 5px 15px;
+	margin: 0;
+	text-align: center;
+}
+ul#butoni li a:hover {
+	text-decoration: underline;
+}
+
+.block1 {
+	margin: auto;
+	width: 70vw;
+	height: 22vh;
+	box-shadow: 0 0 4px #666;
+	border-left-width: 3px;
+	border-left-color: saddlebrown;
+	border-left-style: solid;
+	background-color: #333;
+}
+
+.block2 {
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.text {
+	clear: both;
+	font-weight: bold;
+	font-size: 1vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	text-align: center;
+	height: 4vh;
+	width: 30vw;
+}
+div.text {
+	position: relative;
+	top: 2.5vh;
+	padding: 0;
+}
+.img-opacity {
+	opacity: 0.5;
+	filter: alpha(opacity=60);
+	transition: all .7s ease;
+}
+.img-opacity:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	box-shadow: 0 0 3px #777;
+}
+.field-grafit {
+	position: static;
+	width: 100%;
+	height: 55vh;
+	background-color: #222;
+	margin-top: 1vh;
+}
+.field-grafit2 {
+	position: static;
+	width: 100%;
+	height: 55vh;
+	background-color: #222;
+}
+
+a {
+	color: navajowhite;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+a:hover {
+	color: dodgerblue;
+	cursor: pointer;
+}
+
+.red--text {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1vw;
+	color: red;
+	text-align: center;
+}
+.info {
+	margin-top: 5.5vh;
+	position: relative;
+	max-width: 20vw;
+	max-height: 17vh;
+	width: 20vw;
+	height: 17vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.8vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 18%;
+	background-color: #333;
+	text-align: left;
+	overflow-y: hidden;
+}
+.account {
+	margin-top: 5.5vh;
+	position: relative;
+	max-width: 20vw;
+	max-height: 17vh;
+	width: 20vw;
+	height: 17vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.8vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 20%;
+	background-color: #333;
+	text-align: left;
+	overflow-y: hidden;
+}
+.contacts {
+	margin-top: 5.5vh;
+	position: relative;
+	max-width:20vw;
+	max-height: 17vh;
+	width: 20vw;
+	height: 17vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.8vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 22%;
+	background-color: #333;
+	text-align: left;
+	overflow-y: hidden;
+}
+.signature {
+	margin: auto;
+	position: bottom;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+	background-color: #222;
+	border: 1px solid #444;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	box-shadow: 0 0 5px #555;
+	color: navajowhite;
+	font-family: monotype corsiva;
+	font-size: 3.3vh;
+	font-weight: bold;
+	text-shadow: 0 0 3px navajowhite;
+	width: 40vw;
+	min-width: 30vw;
+	height: 4vh;
+	min-height: 4vh;
+}
+.signature2 {
+	margin: auto;
+	position: relative;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+	background-color: #222;
+	border: 1px solid #444;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	box-shadow: 0 0 5px #555;
+	color: navajowhite;
+	font-family: monotype corsiva;
+	font-size: 3.3vh;
+	font-weight: bold;
+	text-shadow: 0 0 3px navajowhite;
+	width: 40vw;
+	min-width: 30vw;
+	height: 4vh;
+	min-height: 4vh;
+}
+.text-margin {
+	position: relative;
+	margin-left: 10px;
+}
+.text-margin2 {
+	position: relative;
+	margin-left: 2vw;
+	margin-top: 1vh;
+	margin-right: 2vw;
+	margin-bottom: 1vh;
+}
+.text-margin-account {
+	position: relative;
+	margin-left: 30px;
+}
+.center {
+	margin-left: 14vw;
+}
+
+
+/* Portfolio (2 page) */
+/*-------------------------------------------*/
+
+#nav {
+	position:fixed;
+	width: 100%;
+	height: 8vh;
+	background: linear-gradient(90deg, #ffffe0 15%, rgb(231,228,196) 55%);
+	z-index: 2;
+	margin-bottom: 20px;
+	box-shadow: 0 0 8px #444;
+}
+.text-zaglavie-portfolio {
+	font-family: monotype corsiva;
+	font-size: 5.5vh;
+	font-weight: bold;
+	line-height: 8vh;
+	color: #522900;
+	text-align: left;
+	transition: transform 1s ease-in-out;
+	margin-left: 2vw;
+	float: left;
+}
+ul#butoni2 {
+	padding: 0;
+	float: right;
+}
+ul#butoni2 li {
+	display: inline-block;
+}
+ul#butoni2 li a {
+	text-decoration: none;
+	font-size: 3.4vh;
+	font-weight: bold;
+	font-family: monotype corsiva;
+	color: saddlebrown;
+	padding: .5vh 1.5vw;
+	margin: 0;
+	text-align: center;
+}
+ul#butoni2 li a:hover {
+	text-decoration: underline;
+}
+.butoni2 {
+	position: relative;
+	top: 2vh;
+}
+#zaglavie-butterfly {
+	position: relative;
+	float: left;
+	left: 1vw;
+	transform: rotateZ(10deg) rotateY(180deg);
+}
+
+/* parallax effect */
+
+
+
+
+.parallax {
+	height: 100vh;
+	perspective: 1px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* Групите за паралакс ефекта с различни височини */
+
+.parallax-group {
+	height: 100vh;
+	position: relative;
+	transform-style: preserve-3d;
+}
+.parallax-group1 {
+	height: 94vh;
+	position: relative;
+	transform-style: preserve-3d;
+}
+.parallax-group2 {
+	height: 98vh;
+	position: relative;
+	transform-style: preserve-3d;
+}
+.parallax-group3 {
+	height: 82vh;
+	position: relative;
+	transform-style: preserve-3d;
+}
+.parallax-group4 {
+	height: 75vh;
+	position: relative;
+	transform-style: preserve-3d;
+}
+/* ============================================ */
+
+.parallax-layer {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+.parallax-layer-base {
+	transform: translateZ(0);
+}
+.parallax-layer-back {
+	transform: translateZ(-1px) scale(2.02);
+}
+.parallax-layer-deep {
+	transform: translateZ(-2px) scale(3.03);
+}
+/* groups */
+/* ============================================ */
+#group1 {
+	z-index: 4;
+}
+#group1 .parallax-layer-back {
+	background-color: #222;
+	background-size: 80%;
+}
+#group2 {
+	z-index: 5;
+}
+#group2 .parallax-layer-base {
+	background-color: #222;
+	background-size: 100%;
+}
+#group2uslugi {
+	z-index: 5;
+}
+#group2uslugi .parallax-layer-base {
+	background-color: #222; 
+	background-size: 100%;
+}
+
+
+
+#group3 {
+	z-index: 4;
+}
+#group3 .parallax-layer-back {
+	background: url('slide images/25.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#group3uslugi {
+	z-index: 4;
+}
+#group3uslugi .parallax-layer-back {
+	background: url('images/img1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#group3tapeti {
+	z-index: 4;
+}
+#group3tapeti .parallax-layer-back {
+	background: url('images/img17.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#group3tavani {
+	z-index: 4;
+}
+#group3tavani .parallax-layer-back {
+	background: url('images/img16.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+#group4 {
+	z-index: 5;
+}
+#group4 .parallax-layer-base {
+	background-color: rgb(227, 224, 192);
+	background-size: 100%;
+}
+/* ============================================ */
+
+/* Page 2 */
+
+.box1 {
+	position: relative;
+	max-width: 22vw;
+	max-height: 18vh;
+	width: 22vw;
+	height: 18vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.9vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 15%;
+	background-color: #333;
+	text-align: left;
+}
+.box2 {
+	position: relative;
+	max-width: 22vw;
+	max-height: 18vh;
+	width: 22vw;
+	height: 18vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.9vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 17%;
+	background-color: #333;
+	text-align: left;
+}
+.box3 {
+	position: relative;
+	max-width:22vw;
+	max-height: 18vh;
+	width: 22vw;
+	height: 18vh;
+	border: 1px solid #555;
+	float: left;
+	font-size: 0.9vw;
+	font-family: sans-serif;
+	color: navajowhite;
+	left: 19%;
+	background-color: #333;
+	text-align: left;
+}
+.box4orange {
+	position: relative;
+	text-shadow: 0 0 8px #222;
+	font-size: 3.3vh;
+	font-family: Monotype Corsiva, Avenir Next, Droid Sans;
+	color: #FF9933;
+	left: 2%;
+	top: 13%;
+	width: 30vw;
+	height: 50vh;
+}
+.box4navajo {
+	position: relative;
+	text-shadow: 0 0 8px #222;
+	font-size: 3.3vh;
+	font-family: Monotype Corsiva, Avenir Next, Droid Sans;
+	color: navajowhite;
+	left: 2%;
+	top: 13%;
+	width: 30vw;
+	height: 50vh;
+}
+.box4blue {
+	position: relative;
+	text-shadow: 0 0 20px white;
+	font-size: 3.3vh;
+	font-family: Monotype Corsiva, Avenir Next, Droid Sans;
+	color: dodgerblue;
+	left: 2%;
+	top: 13%;
+	width: 30vw;
+	height: 50vh;
+}
+.box4pink {
+	position: relative;
+	text-shadow: 0 0 8px #222;
+	font-size: 3.3vh;
+	font-family: Monotype Corsiva, Avenir Next, Droid Sans;
+	color: #FFAACC;
+	left: 2%;
+	top: 13%;
+	width: 30vw;
+	height: 50vh;
+}
+#spalni {
+	position: relative;
+	top: 2vh;
+}
+#transparent-cover-black {
+	position: relative;
+	border: 1px solid black;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, #111 1%, transparent 40%);
+}
+#transparent-cover-white {
+	position: relative;
+	border: 1px solid black;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, white 5%, transparent 50%);
+}
+
+/* ============= Услуги =============== */
+
+#uslugi {
+	margin-top: 8vh;
+	width: 75vw;
+	height: 60vh;
+	font-family: monotype corsiva;
+	font-size: 3.5vh;
+	text-align: left;
+	color: #99FF99;
+	border: 0.5vh solid #444;
+}
+
+#slidy-wrap-text {
+	max-width: 50vw;
+	max-height: 10vh;
+	width: 25vw;
+	font-weight: bold;
+	font-size: 3.2vh;
+	font-family: Corbel;
+	color: #0033CC;
+	text-shadow: 0 0 4px #444;
+	text-align: center;
+	z-index: 3;
+	position: absolute;
+	top: 74%;
+	left: 35.5vw;
+	background-color: rgba(200,200,200,.5);
+	padding: .5vh 2vw;
+	border-radius: 20px;
+}
+.slidy-pointer {
+	height: 15vh;
+	width: 12vw;
+	position: absolute;
+	z-index: 3;
+	left: 44%;
+	top: 80%;
+}
+#container-1 {
+	width: 65vw;
+	height: 57vh;
+	margin: auto;
+	margin-top: 15vh;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-image: url('bg/dark surface 2.jpg');
+	background-size: 100%;
+}
+
+#field-vhod {
+	width: 29vw;
+	height: 50vh;
+	border: 2px solid navajowhite;
+	background-color: rgba(225,225,225,0.25);
+	color: navajowhite;
+	float: left;
+	margin-left: 2vw;
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+#field-reg {
+	width: 29vw;
+	height: 50vh;
+	border: 2px solid navajowhite;
+	background-color: rgba(225,225,225,0.25);
+	color: navajowhite;
+	float: left;
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+#field-reg, #field-vhod {
+	font-size: 2.4vh;
+	font-family: Corbel;
+}
+#table-vhod, #table-reg {
+	clear: both;
+	margin: auto;
+	margin-top: 5vh;
+}
+input[type="password"],
+input[type="text"] {
+	border: 1px solid navajowhite;
+	border-radius: 5px;
+	color: #333;
+	background-color: rgb(237,234,202);
+	transition: transform 1s ease;
+}
+input[type="password"]:focus,
+input[type="text"]:focus {
+	box-shadow: 0 0 4px #222;
+	transform: scale(1.2);
+}
+#field-vhod #table-vhod input[type="submit"] {
+	border: 1px solid navajowhite;
+	border-radius: 5px;
+	color: #333;
+	background-color: rgb(237,234,202);
+	font-family: Corbel;
+	font-size: 1.7vh;
+	padding: 0.02vh 0.04vh;
+	margin-left: 0.5vh;
+	transition: all 1s ease;
+
+}
+#field-vhod #table-vhod input[type="submit"]:hover {
+	box-shadow: 0 0 3px #333;
+	background-color: skyblue;
+	border: 1px solid skyblue;
+}
+
+#butterfly8 {
+	position: absolute;
+	width: 7vw;
+	height: 10vh;
+	top: 14%;
+	left: 44%;
+}
+
+#broshura--1 {
+	height: 70vh;
+	width: 28vw;
+	position: absolute;
+	top: 20vh;
+	left: 6vw;
+	float: left;
+}
+#text--broshura--1 {
+	font-family: corbel;
+	font-size: 1.5vw;
+	color: #333;
+	position: absolute;
+	height: 7vh;
+	width: 60vw;
+	top: 15vh;
+	left: 35vw;
+	text-shadow: 0 0 0.3vw #333;
+}
+#text--broshura--1--p2 {
+	font-family: corbel;
+	font-size: 1.5vw;
+	color: #333;
+	position: absolute;
+	height: 7vh;
+	width: 50vw;
+	top: 31vh;
+	left: 48vw;
+	text-shadow: 0 0 0.3vw #333;
+}
+#margin--field--grafit {
+	top: 100vh;
+	position: relative;
+}
